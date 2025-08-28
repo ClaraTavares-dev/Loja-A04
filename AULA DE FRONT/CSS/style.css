@@ -1,0 +1,54 @@
+.item{
+    background: white;
+    border: 3px solid;
+    padding: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:antiquewhite;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+h2{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:black
+}
+
+a{
+    background: black;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 6px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    text-align: center;
+}
+a:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+
+}
+ 
+.grade{
+    display: grid;
+    grid-template-columns: 400fr 400fr ;
+    grid-gap: 20px;
+    justify-content: center;
+    justify-content: start;
+}
+img{
+    width: 200px;
+
+}
+body{
+    background-image: url("../Imagens/neon.avif")
+}
+h1{
+    color: antiquewhite;
+}
+p{
+    color:black;
+}
